@@ -7,18 +7,20 @@ import random
 number = random.randint(1,100)
 
 usernumber = 0
+i = 0
 
 print("Wylosowałem liczbę. Możesz zgadywać!")
 print()
 
 while usernumber != number:
+    i += 1
     print("Podaj liczbę: ")
     usernumber = int(input())
     print ("Podałeś %d" %(usernumber))
     if usernumber > number:
         print("Wylosowana liczba jest mniejsza, próbuj dalej!")
-    else:
+    elif usernumber > number:
         print("Wylosowana liczba jest większa, próbuj dalej!")
-
-print("Brawo, liczba która została wylosowana to %d" %(usernumber))
-
+    else:
+        print("Brawo, liczba która została wylosowana to %d. Próbowałeś %d razy!" %(usernumber, i))
+        break
