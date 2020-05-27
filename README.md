@@ -2,7 +2,7 @@
 
 Zadania:
 
-Dzień 1.
+**Dzień 1.**
 
 Program losuje liczbę z zakresu 1-100. Użytkownik podaje liczbę a program odpowiada czy liczba jest większa lub mniejsza. Jeżeli użytkownik odgadnie wylosowaną liczbę to program informuje o tym oraz podaje ilość prób jakie użytkownik podjął.
 
