@@ -17,3 +17,7 @@ Program prosi użytkownika o 6 liczb z zakresu 1-49. Liczby są wyświetlone pon
 **Dzień 3. 29.05.2020**
 
 Wykorzystaj kod z zadania z dnia 2. Podczas wprowadzania liczb użytkownik ma możliwość wprowadzić tylko liczby z podanego zakresu. Jeżeli liczba jest spoza zakresu program informuje o tym użytkownika i prosi o podanie prawidłowych liczb.
+
+**Dzień 4. 30.05.2020**
+
+Wykorzystaj kod z zadania z dnia 3. Po wprowadzeniu liczb program losuje 6 liczb z zakresu 1-49, liczby nie mogą się powtarzać. Program sprawdza ile liczb użytkownik prawidłowo wytypował i informuje komunikatem typu: Odgadłeś 3 liczby: x, y, z. Program ma symulować grę Lotto (Duży Lotek).
