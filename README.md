@@ -21,3 +21,20 @@ Wykorzystaj kod z zadania z dnia 2. Podczas wprowadzania liczb użytkownik ma mo
 **Dzień 4. 30.05.2020**
 
 Wykorzystaj kod z zadania z dnia 3. Po wprowadzeniu liczb program losuje 6 liczb z zakresu 1-49, liczby nie mogą się powtarzać. Program sprawdza ile liczb użytkownik prawidłowo wytypował i informuje komunikatem typu: Odgadłeś 3 liczby: x, y, z. Program ma symulować grę Lotto (Duży Lotek).
+
+**Dzień 5. 31.05.2020**
+
+Utwórz program konsolowy który będzie przeliczał jednostki: moc kW/KM, energię J/W, masę g/funt, temperaturę C/F.
+Program po uruchomieniu ma pokazać menu:
+Wybierz co chcesz przeliczyć:
+1. Moc kW/KM
+2. Energię J/W
+3. Masę g/funt
+4. Temperaturę C/F
+0. Wyjście
+
+Użytkownik podaję ilość (np: 1) a pod spodem jest wyświetlona informacja
+1 kW = 1,36KM
+1 KM = 0,74kW
+
+i znów pojawia się poniżej menu. Program działa dopóki użytkownik nie wybierze 0 kończące program.
