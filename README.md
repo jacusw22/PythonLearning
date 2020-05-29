@@ -13,3 +13,7 @@ Program musi się uruchamiac we wszystkich systemach (hashbang).
 **Dzień 2. 28.05.2020**
 
 Program prosi użytkownika o 6 liczb z zakresu 1-49. Liczby są wyświetlone poniżej w kolejności od najmniejszej do największej. Nie korzystamy z funkcji sortowania pythona, algorytm sortowania piszemy sami. Algorytm dowolny (bąbelkowe, przez wstawianie, kubełkowe, quicksort lub inne, w komentarzu info o wybranym algorytmie).
+
+**Dzień 3. 29.05.2020**
+
+Wykorzystaj kod z zadania z dnia 2. Podczas wprowadzania liczb użytkownik ma możliwość wprowadzić tylko liczby z podanego zakresu. Jeżeli liczba jest spoza zakresu program informuje o tym użytkownika i prosi o podanie prawidłowych liczb.
