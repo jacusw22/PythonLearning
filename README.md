@@ -34,7 +34,9 @@ Wybierz co chcesz przeliczyć:
 0. Wyjście
 
 Użytkownik podaję ilość (np: 1) a pod spodem jest wyświetlona informacja
+
 1 kW = 1,36KM
+
 1 KM = 0,74kW
 
 i znów pojawia się poniżej menu. Program działa dopóki użytkownik nie wybierze 0 kończące program.
