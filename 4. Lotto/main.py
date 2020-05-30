@@ -20,11 +20,13 @@ while len(drawedNumbers) < 6:
     if number in drawedNumbers:
         continue
     else:
-        drawedNumbers.append(number)
+        drawedNumbers.append(int(number))
 
 
 bubbleSort(drawedNumbers)
 print("Wylosowałem 6 liczb. Zgaduj!")
+
+# line below should be removed to play (just4manualTests)
 print(drawedNumbers)
 
 print("Podaj 6 liczb z zakresu 1 - 49 oddzielone spacjami:")
@@ -48,3 +50,14 @@ bubbleSort(numbers)
 
 print("Posortowane liczby: ")
 print(numbers)
+
+print("Moje liczby to: ")
+print(drawedNumbers)
+
+n = 0
+
+for i in range(len(drawedNumbers)):
+    if numbers[i] in drawedNumbers:
+        n += 1
+
+print("Brawo, odgadłeś aż %d liczb" %(n))
