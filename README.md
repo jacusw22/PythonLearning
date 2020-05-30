@@ -42,3 +42,8 @@ Użytkownik podaję ilość (np: 1) a pod spodem jest wyświetlona informacja
 i znów pojawia się poniżej menu. Program działa dopóki użytkownik nie wybierze 0 kończące program.
 
 W programie utwórz funkcję dla każdego konwertera.
+
+**Dzień 6. 1.06.2020**
+
+Dzień Dziecka: wymyśl jakieś zadanie dla mnie ;)
+
