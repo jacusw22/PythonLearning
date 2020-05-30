@@ -17,8 +17,13 @@ numbers = input("Moje liczny to: ")
 tab_numbers = numbers.split(" ")
 numbers = []
 for number in tab_numbers:
+    while (int(number) > 49) or (int(number) < 1):
+        print("Liczka %d jest nieprawidłowa (poza zakresem 1-49)." %(int(number)))
+        number = int(input("Podaj inną liczbę : "))
     print(number)
-    numbers.append(number)
+    numbers.append(int(number))
+    if len(numbers) == 6:
+        break
 
 print(numbers)
 
