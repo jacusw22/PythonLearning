@@ -28,9 +28,9 @@ Utwórz program konsolowy który będzie przeliczał jednostki: moc kW/KM, energ
 Program po uruchomieniu ma pokazać menu:
 Wybierz co chcesz przeliczyć:
 1. Moc kW/KM
-2. Energię J/W
+2. Energię J/kWh
 3. Masę g/funt
-4. Temperaturę C/F
+4. Temperaturę C/K
 0. Wyjście
 
 Użytkownik podaję ilość (np: 1) a pod spodem jest wyświetlona informacja
