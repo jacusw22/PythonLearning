@@ -40,3 +40,5 @@ Użytkownik podaję ilość (np: 1) a pod spodem jest wyświetlona informacja
 1 KM = 0,74kW
 
 i znów pojawia się poniżej menu. Program działa dopóki użytkownik nie wybierze 0 kończące program.
+
+W programie utwórz funkcję dla każdego konwertera.
