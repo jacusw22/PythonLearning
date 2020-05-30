@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+import random
 
 def bubbleSort(arr):
     n = len(arr)
     for i in range(n):
+        i += 1
         for j in range(n-1):
             if arr[j] > arr[j+1]:
                 tmp = arr[j]
@@ -10,7 +12,22 @@ def bubbleSort(arr):
                 arr[j+1] = tmp
 
 
-print("Podaj 6 liczb z zakresu 1 - 49 oddzielone spacjami a ja je posortuje:")
+drawedNumbers = []
+
+
+while len(drawedNumbers) < 6:
+    number = random.randint(1,49)
+    if number in drawedNumbers:
+        continue
+    else:
+        drawedNumbers.append(number)
+
+
+bubbleSort(drawedNumbers)
+print("Wylosowałem 6 liczb. Zgaduj!")
+print(drawedNumbers)
+
+print("Podaj 6 liczb z zakresu 1 - 49 oddzielone spacjami:")
 
 numbers = input("Moje liczny to: ")
 
