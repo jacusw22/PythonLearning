@@ -47,3 +47,5 @@ W programie utwórz funkcję dla każdego konwertera.
 
 Dzień Dziecka: wymyśl jakieś zadanie dla mnie ;)
 
+**Dzień 7 2.06.2020**
+Przerób ostatnie zadanie tak aby funkcje nie robiły printa tylko wynik przekazywały do funkcji drukuj wynik która ma nagłówek typu def drukujWynik(float wartość1, string jednostka1, float wartość2, string jednostka2)
